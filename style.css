@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #29d90d;
+}
+
+header {
+    background: #e81616;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(255, 255, 255);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.product-list, .intro, .categories {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.product, .category-box, .cart-item, .product-details, .checkout form {
+    background: rgb(255, 43, 198);
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    background: #df0f0f;
+}
+
+footer {
+    background: #222;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
